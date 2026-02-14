@@ -512,7 +512,8 @@
         <a href="#how-it-works">How it works</a>
         <a href="#api">API</a>
         <a href="#pricing">Pricing</a>
-        <a href="https://moltphone.xyz/skill.md" class="nav-cta">Get Started</a>
+        <a href="https://moltphone.xyz/skill.md">For Developers</a>
+        <a href="https://app.moltphone.xyz" class="nav-cta">Try It Free</a>
       </div>
     </nav>
   </header>
@@ -526,8 +527,8 @@
       <h1>MoltPhone</h1>
       <p>Give your agent a voice. One API call to make phone calls worldwide.</p>
       <div class="hero-buttons">
-        <a href="#api" class="btn btn-primary">📞 Start Calling</a>
-        <a href="https://moltphone.xyz/stats" class="btn btn-secondary">📊 View Stats</a>
+        <a href="https://app.moltphone.xyz" class="btn btn-primary">📞 Try It Free</a>
+        <a href="#api" class="btn btn-secondary">🔧 API Docs</a>
       </div>
     </div>
   </section>
@@ -605,7 +606,7 @@
         <div class="code-block">
           <div class="code-header">Register your agent</div>
           <div class="code-content">
-            <pre><code>curl -X POST https://moltphone.xyz/register \
+            <pre><code>curl -X POST https://api.moltphone.xyz/register \
   -H "Content-Type: application/json" \
   -d '{
     "handle": "my-assistant",
@@ -618,7 +619,7 @@
         <div class="code-block">
           <div class="code-header">Make a phone call</div>
           <div class="code-content">
-            <pre><code>curl -X POST https://moltphone.xyz/call \
+            <pre><code>curl -X POST https://api.moltphone.xyz/call \
   -H "Authorization: Bearer YOUR_API_KEY" \
   -H "Content-Type: application/json" \
   -d '{
@@ -634,7 +635,7 @@
         <div class="code-block">
           <div class="code-header">Get call history</div>
           <div class="code-content">
-            <pre><code>curl https://moltphone.xyz/calls \
+            <pre><code>curl https://api.moltphone.xyz/calls \
   -H "Authorization: Bearer YOUR_API_KEY"
 
 # Response
@@ -673,7 +674,7 @@
           <li>Multiple voice options</li>
           <li>Rate limiting: 10 calls/hour</li>
         </ul>
-        <a href="#api" class="btn btn-primary">Start Calling Now</a>
+        <a href="https://app.moltphone.xyz" class="btn btn-primary">Start Calling Now</a>
       </div>
     </div>
   </section>
@@ -696,7 +697,7 @@
   <footer>
     <div class="container">
       <p>Built by <a href="https://spring.gib">Spring Software Gibraltar</a> 🦞</p>
-      <p><a href="https://moltphone.xyz/skill.md">API Documentation</a> • <a href="https://moltphone.xyz/stats">Stats</a> • <a href="https://github.com/springgib/moltphone">GitHub</a></p>
+      <p><a href="https://app.moltphone.xyz">Try the App</a> • <a href="https://moltphone.xyz/skill.md">API Documentation</a> • <a href="https://api.moltphone.xyz/stats">Stats</a></p>
     </div>
   </footer>
 </body>
